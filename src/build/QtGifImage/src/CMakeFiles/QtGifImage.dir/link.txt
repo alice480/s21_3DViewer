@@ -1,0 +1,2 @@
+/usr/bin/ar qc libQtGifImage.a CMakeFiles/QtGifImage.dir/QtGifImage_autogen/mocs_compilation.cpp.o CMakeFiles/QtGifImage.dir/gifimage/qgifimage.cpp.o
+/usr/bin/ranlib libQtGifImage.a

@@ -1,0 +1,252 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "backend",
+					"jsonFile" : "directory-backend-Debug-8702910ebe8ec25d8860.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "backend",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "QtGifImage/src",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-QtGifImage.src-Debug-3fa27131a523ffa824c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "QtGifImage/src",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "QtGifImage/src/3rdParty",
+					"jsonFile" : "directory-QtGifImage.src.3rdParty-Debug-77d8804e857a359f2d58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "QtGifImage/src/3rdParty",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "3DViewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "backend",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "QtGifImage",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "giflib",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3DViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3DViewer-Debug-8b9ad10e1199b13c3d15.json",
+					"name" : "3DViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3DViewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3DViewer_autogen-Debug-fc93e39a2d83aa8a7c97.json",
+					"name" : "3DViewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3DViewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3DViewer_autogen_timestamp_deps-Debug-25d79f3e110aae7496b9.json",
+					"name" : "3DViewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "QtGifImage::@715621dd18aa9da775da",
+					"jsonFile" : "target-QtGifImage-Debug-21faea80f6671f7d43b6.json",
+					"name" : "QtGifImage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "QtGifImage_autogen::@715621dd18aa9da775da",
+					"jsonFile" : "target-QtGifImage_autogen-Debug-cd4a588e5ec6c6c35a75.json",
+					"name" : "QtGifImage_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "QtGifImage_autogen_timestamp_deps::@715621dd18aa9da775da",
+					"jsonFile" : "target-QtGifImage_autogen_timestamp_deps-Debug-369e292c931f54125f2c.json",
+					"name" : "QtGifImage_autogen_timestamp_deps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backend::@e17dcb4e28158375c849",
+					"jsonFile" : "target-backend-Debug-d9f44c0eff1a8ddf5730.json",
+					"name" : "backend",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backend_autogen::@e17dcb4e28158375c849",
+					"jsonFile" : "target-backend_autogen-Debug-954dc0e9c022f1b1157a.json",
+					"name" : "backend_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "backend_autogen_timestamp_deps::@e17dcb4e28158375c849",
+					"jsonFile" : "target-backend_autogen_timestamp_deps-Debug-99ccb33174c2ba951e05.json",
+					"name" : "backend_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "giflib::@0bb0faa500bda627336d",
+					"jsonFile" : "target-giflib-Debug-99dc417b5907e390bc7e.json",
+					"name" : "giflib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "giflib_autogen::@0bb0faa500bda627336d",
+					"jsonFile" : "target-giflib_autogen-Debug-52b2eb465486ff0fac63.json",
+					"name" : "giflib_autogen",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "giflib_autogen_timestamp_deps::@0bb0faa500bda627336d",
+					"jsonFile" : "target-giflib_autogen_timestamp_deps-Debug-75eb60f916577c3f1287.json",
+					"name" : "giflib_autogen_timestamp_deps",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug",
+		"source" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

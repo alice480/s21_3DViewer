@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"QtGifImage/src/3rdParty/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "giflib_autogen_timestamp_deps::@0bb0faa500bda627336d",
+	"isGeneratorProvided" : true,
+	"name" : "giflib_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "QtGifImage/src/3rdParty",
+		"source" : "QtGifImage/src/3rdParty"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty/CMakeFiles/giflib_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty/CMakeFiles/giflib_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

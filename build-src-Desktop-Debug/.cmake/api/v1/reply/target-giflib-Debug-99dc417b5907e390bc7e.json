@@ -1,0 +1,272 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "QtGifImage/src/3rdParty/libgiflib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"QtGifImage/src/3rdParty/CMakeLists.txt",
+			"CMakeLists.txt",
+			"QtGifImage/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty"
+				},
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/QtGifImage/src/3rdParty"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty/giflib_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/backend"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/frontend"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/QtGifImage/src/3rdParty/giflib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/QtGifImage/src/gifimage"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty"
+				},
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/QtGifImage/src/3rdParty"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty/giflib_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/backend"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/frontend"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/QtGifImage/src/3rdParty/giflib"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/QtGifImage/src/gifimage"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "giflib_autogen_timestamp_deps::@0bb0faa500bda627336d"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "giflib_autogen::@0bb0faa500bda627336d"
+		}
+	],
+	"id" : "giflib::@0bb0faa500bda627336d",
+	"name" : "giflib",
+	"nameOnDisk" : "libgiflib.a",
+	"paths" : 
+	{
+		"build" : "QtGifImage/src/3rdParty",
+		"source" : "QtGifImage/src/3rdParty"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty/giflib_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "QtGifImage/src/3rdParty/giflib/dgif_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "QtGifImage/src/3rdParty/giflib/egif_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "QtGifImage/src/3rdParty/giflib/gif_err.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "QtGifImage/src/3rdParty/giflib/gif_font.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "QtGifImage/src/3rdParty/giflib/gif_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "QtGifImage/src/3rdParty/giflib/gifalloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "QtGifImage/src/3rdParty/giflib/quantize.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty/giflib_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/QtGifImage/src/3rdParty/giflib_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

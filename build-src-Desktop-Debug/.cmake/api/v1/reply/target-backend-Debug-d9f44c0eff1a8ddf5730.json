@@ -1,0 +1,198 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "backend/libbackend.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"backend/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/backend"
+				},
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/backend"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/backend/backend_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/frontend"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/backend"
+				},
+				{
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/backend"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/backend/backend_autogen/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/src/frontend"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "backend_autogen_timestamp_deps::@e17dcb4e28158375c849"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "backend_autogen::@e17dcb4e28158375c849"
+		}
+	],
+	"id" : "backend::@e17dcb4e28158375c849",
+	"name" : "backend",
+	"nameOnDisk" : "libbackend.a",
+	"paths" : 
+	{
+		"build" : "backend",
+		"source" : "backend"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/backend/backend_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "backend/objparser.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "backend/affinity.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/backend/backend_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alice/School21/test_viewer/C8_3DViewer_v1.0-1/build-src-Desktop-Debug/backend/backend_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

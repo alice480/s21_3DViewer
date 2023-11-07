@@ -1,0 +1,42 @@
+#tcase rotate_obj
+#test rotate_obj_1
+char filename[] = "../models/cube_2.txt";
+obj ob = {NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0};
+make_obj(&ob, filename);
+double xyz[] = {450, 0, 0};
+int result = rotate_obj(&ob, xyz);
+ck_assert_int_eq(result, 0);
+ck_assert_int_eq(ob.vnum, 8);
+ck_assert_int_eq(ob.fnum, 6);
+ck_assert_double_eq_tol(ob.vertexes[3].x, -1, EPS);
+ck_assert_double_eq_tol(ob.vertexes[3].y, -1, EPS);
+ck_assert_double_eq_tol(ob.vertexes[3].z, 1, EPS);
+free_obj(&ob);
+
+#test rotate_obj_2
+char filename[] = "../models/cube_2.txt";
+obj ob = {NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0};
+make_obj(&ob, filename);
+double xyz[] = {0, 90, 0};
+int result = rotate_obj(&ob, xyz);
+ck_assert_int_eq(result, 0);
+ck_assert_int_eq(ob.vnum, 8);
+ck_assert_int_eq(ob.fnum, 6);
+ck_assert_double_eq_tol(ob.vertexes[3].x, 1, EPS);
+ck_assert_double_eq_tol(ob.vertexes[3].y, 1, EPS);
+ck_assert_double_eq_tol(ob.vertexes[3].z, 1, EPS);
+free_obj(&ob);
+
+#test rotate_obj_3
+char filename[] = "../models/cube_2.txt";
+obj ob = {NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0};
+make_obj(&ob, filename);
+double xyz[] = {0, 0, 90};
+int result = rotate_obj(&ob, xyz);
+ck_assert_int_eq(result, 0);
+ck_assert_int_eq(ob.vnum, 8);
+ck_assert_int_eq(ob.fnum, 6);
+ck_assert_double_eq_tol(ob.vertexes[3].x, -1, EPS);
+ck_assert_double_eq_tol(ob.vertexes[3].y, -1, EPS);
+ck_assert_double_eq_tol(ob.vertexes[3].z, 1, EPS);
+free_obj(&ob);

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbackend.a CMakeFiles/backend.dir/backend_autogen/mocs_compilation.cpp.o CMakeFiles/backend.dir/objparser.c.o CMakeFiles/backend.dir/affinity.c.o
+/usr/bin/ranlib libbackend.a

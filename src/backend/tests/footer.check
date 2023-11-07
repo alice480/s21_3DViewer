@@ -1,0 +1,3 @@
+#main-pre
+srunner_set_fork_status(sr, CK_NOFORK);
+srunner_set_log(sr, "tmp_check.log");

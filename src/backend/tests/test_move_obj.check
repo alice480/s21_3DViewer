@@ -1,0 +1,14 @@
+#tcase move_obj
+#test move_obj_1
+char filename[] = "../models/cube_2.txt";
+obj ob = {NULL, NULL, 0, 0, 0, 0, 0, 0, 0, 0};
+make_obj(&ob, filename);
+const double xyz[] = {0.5, 0.5, 0.5};
+int result = move_obj(&ob, xyz);
+ck_assert_int_eq(result, 0);
+ck_assert_int_eq(ob.vnum, 8);
+ck_assert_int_eq(ob.fnum, 6);
+ck_assert_double_eq(ob.vertexes[3].x, -0.5);
+ck_assert_double_eq(ob.vertexes[3].y, 1.5);
+ck_assert_double_eq(ob.vertexes[3].z, 1.5);
+free_obj(&ob);
